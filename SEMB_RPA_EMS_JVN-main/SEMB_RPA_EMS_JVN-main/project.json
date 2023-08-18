@@ -1,0 +1,71 @@
+{
+  "name": "EMS_JVN",
+  "description": "RPA for supporting data EMS Dashboard JVN supplier",
+  "main": "JVN_Flow.xaml",
+  "dependencies": {
+    "BalaReva.CSV.Activities": "[2019.2.0]",
+    "BalaReva.EasyExcel.Activities": "[29.0.0]",
+    "BalaReva.Excel.Activities": "[2021.0.0]",
+    "CSV.Activities": "[1.0.2]",
+    "CsvConverter": "[2.0.0.4]",
+    "ExcelConverter": "[1.0.4]",
+    "ExcelConverter.Activities": "[1.0.0]",
+    "UiPath.Box.Activities": "[1.1.6]",
+    "UiPath.Excel.Activities": "[2.11.3]",
+    "UiPath.Mail.Activities": "[1.12.1]",
+    "UiPath.System.Activities": "[21.10.0]",
+    "UiPath.UIAutomation.Activities": "[21.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "2.0.19",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "Handler\\GlobalHandler.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Daily Demand Output and Dispatch Tracker 20210204.xlsx"
+      ]
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "JVN_Flow.xaml",
+      "uniqueId": "fbc5a8ef-8796-4452-ab38-9468b8abdc8b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
